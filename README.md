@@ -1,5 +1,7 @@
 ## azure functions test guff
 
+```swa start --api-location api```
+
 https://wonderful-tree-00e2bd603.5.azurestaticapps.net/?test=warraage
 
 https://github.com/blackspike/vue-vite-swa-fns/actions/workflows/azure-static-web-apps-wonderful-tree-00e2bd603.yml
