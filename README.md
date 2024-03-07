@@ -1,7 +1,11 @@
-# Vue 3 + Vite
+## azure functions test guff
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+https://wonderful-tree-00e2bd603.5.azurestaticapps.net/?test=warraage
 
-## Recommended IDE Setup
+https://github.com/blackspike/vue-vite-swa-fns/actions/workflows/azure-static-web-apps-wonderful-tree-00e2bd603.yml
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+https://portal.azure.com/#@felixblackspike.onmicrosoft.com/resource/subscriptions/29e5d97b-f46e-4efe-8bbc-a9192a21fc2f/resourceGroups/vue-functions_group/providers/Microsoft.Web/staticSites/vue-functions/staticsite
+
+https://learn.microsoft.com/en-us/azure/static-web-apps/add-api?tabs=vue
+
+https://azure.github.io/static-web-apps-cli/docs/use/api-server/
