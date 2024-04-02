@@ -1,5 +1,6 @@
 import { app } from "@azure/functions"
-import Mux from '@mux/mux-node'
+// This kills the app
+// import Mux from '@mux/mux-node'
 
 app.http('test-function', {
     methods: ['GET'],
