@@ -1,5 +1,5 @@
 import { app } from "@azure/functions"
-// import Mux from '@mux/mux-node'
+import Mux from '@mux/mux-node'
 
 app.http('test-function', {
     methods: ['GET'],
