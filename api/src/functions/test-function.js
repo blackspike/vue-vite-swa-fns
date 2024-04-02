@@ -6,7 +6,7 @@ app.http('test-function', {
     authLevel: 'anonymous',
     handler: async () => {
 
-        return { jsonBody: { test: "name" } };
+        return { jsonBody: { test: "name" } }
     }
-});
+})
 
