@@ -1,16 +1,12 @@
 import { app } from "@azure/functions"
-import Mux from '@mux/mux-node'
+// import Mux from '@mux/mux-node'
 
 app.http('test-function', {
-    methods: ['GET', 'POST'],
+    methods: ['GET'],
     authLevel: 'anonymous',
-    handler: async (request, context) => {
+    handler: async () => {
 
-        context.log(`Http function processed request for url "${request.url}"`);
-
-        const name = request.query.get('test')
-
-        return { body: JSON.stringify({ fish: name, test: 'es6' }) };
+        return { jsonBody: { test: "name" } };
     }
 });
 
