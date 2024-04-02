@@ -1,4 +1,4 @@
-const { app } = require('@azure/functions');
+import { app } from "@azure/functions"
 
 app.http('test-function', {
     methods: ['GET', 'POST'],
@@ -9,7 +9,7 @@ app.http('test-function', {
 
         const name = request.query.get('test')
 
-        return { body: JSON.stringify({ fish: name }) };
+        return { body: JSON.stringify({ fish: name, test: 'es6' }) };
     }
 });
 
